@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+
+</head>
+<body>
+    <header class="container form-header">
+        <img class="form-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Overwatch_circle_logo.svg/800px-Overwatch_circle_logo.svg.png" alt="" />
+
+        <h1 class="form-title">Crear una cuenta</h1>
+        <h2 class="form-subtitle">Regístrate para obtener beneficios</h2>
+
+        <ul class="benefits">
+            <li class="benefits-item">
+                <p>
+                    <i class="benefits-icon fa-solid fa-ranking-star fa-fw"></i>
+                    <span class="highlighted">Guarda</span>
+                    tus partidas y estadísticas
+                </p>
+            </li>
+            <li class="benefits-item">
+                <p>
+                    <i class="benefits-icon fa-solid fa-trophy fa-fw"></i>
+                    <span class="highlighted">Califica</span> a torneos
+                </p>
+            </li>
+            <li class="benefits-item">
+                <p>
+                    <i class="benefits-icon fa-solid fa-envelope fa-fw"></i>
+                    <span class="highlighted">Recibe</span> las últimas noticias
+                </p>
+            </li>
+        </ul>
+    </header>
+
+    <main class="container">
+        <form action="" method="post" class="form-body">
+            <div>
+                <div>
+                    <label class="form-label" for="name">Nombre *</label>
+                    <input class="input-text" type="text" name="name" id="name" placeholder="Angel" />
+                </div>
+
+                <div>
+                    <label class="form-label" for="last-name">Apellidos *</label>
+                    <input class="input-text" type="text" name="last-name" id="last-name" placeholder="Burciaga" />
+                </div>
+                <div>
+                    <label class="form-label" for="mail">Correo electrónico *</label>
+                    <input class="input-text" type="email" name="mail" id="mail" placeholder="name@gmail.com" />
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label class="form-label" for="password">Contraseña *
+                        <span class="subtitle">(Mínimo 8 caracteres)</span></label>
+                    <input class="input-text" type="password" name="password" id="password" placeholder="********" />
+                </div>
+                <div>
+                    <label class="form-label" for="password-confirmation">Confirma tu contraseña *</label>
+                    <input class="input-text" type="password" name="password-confirmation" id="password-confirmation" placeholder="********" />
+                </div>
+
+                <p class="form-legend highlighted">Campos obligatorios *</p>
+
+                <div class="form-footer">
+                    <div class="form-check">
+                        <input type="checkbox" name="newsletter" id="newsletter" />
+                        <label for="newsletter">Deseo recibir las últimas noticias
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" name="conditions" id="conditions" />
+                        <label for="conditions" class="highlighted">
+                            Acepto <a href="">Términos y condiciones </a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="form-submit" value="create-account">
+                        Crear cuenta
+                    </button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
