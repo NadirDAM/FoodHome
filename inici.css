@@ -151,54 +151,57 @@ body{
 }
 /* Estils footer */
 footer {
-    position: fixed;
     background: linear-gradient(to bottom, #000, #333);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    height: 250px;
-    top: 80%;
+}
+/*Footer*/
+#footer {
     z-index: 1;
-}
-
-/* Estils enllaç */
-.links{
-    margin-top: 30px;
-}
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-#avislegal{margin-right: -20px}
-
-/* Estils contenidor icones  */
-.social-icons {
-    margin-top: 55px;
-    margin-left: 50px;
-}
-/* Estils icones*/
-.social-icons img {
-    width: 2%;
-    height: 2%;
-}
-/* Estils informació de contacte */
-.contact-info {
-    margin-top: -120px;
-    margin-left: 870px;
-}
-
-/* Estils mapa */
-.map {
+    height: 8%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: fixed;
+    left:0px;
     width: 100%;
-    height: 50%;
-    margin-top: -50px;
-    margin-left: -450px;
+    bottom:0px;
+    padding-top: 10px;
+    background: linear-gradient(to bottom, #000, #333);
 }
+.footer-follow {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer-follow img {
+    width: 110%;
+    height: 100%;
+}
+.footer-follow li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 13px;
+}
+.footer-follow li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: -0.8%;
+    color: #ffffff;
+}
+#imgcopy{
+    margin-left: 0.9%;
+    width: 2%;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+}
+/*Informació Imatges Ofertes*/
 #oferta, #oferta2 {
     float: left;
     width: 50%;
