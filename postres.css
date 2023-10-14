@@ -8,7 +8,7 @@ main>.container {
 }
 #menu{
     z-index: 1;
-    width: 37.8%;
+    width: 30.05%;
     margin: 20px auto;
     border: 1px solid black;
     background: #111;
@@ -87,3 +87,4 @@ main>.container {
     border-right: 6px solid #577cc9;
     border-bottom: 6px solid #1ebdbe;
 }
+@media
