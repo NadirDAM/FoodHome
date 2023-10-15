@@ -223,11 +223,8 @@ body{
 }
 
 
-/*Informació Imatges Ofertes*/
-/*#entrants, #plats, #postres {*/
-/*    background-color: green;*/
-/*    float: left;*/
-/*    border: black solid;*/
-/*    width: 33.33333%;*/
-/*    height: 700px;*/
-/*}*/
+@media (max-width:1550px){
+    #menu{
+        width: 37.8%;
+    }
+}

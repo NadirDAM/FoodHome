@@ -129,3 +129,20 @@ main>.container {
     margin-top: -0.8%;
     color: #ffffff;
 }
+@media (max-width:1550px){
+    #menu{
+        width: 37.8%;
+    }
+}
+@media (max-width:1052px){
+    #menu{
+        width: 55.21%;
+    }
+
+}
+@media (max-width:800px){
+    #menu{
+        width: 73.0%;
+
+    }
+}

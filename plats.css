@@ -128,3 +128,8 @@ main>.container {
     margin-top: -0.8%;
     color: #ffffff;
 }
+@media (max-width:1550px){
+    #menu{
+        width: 37.8%;
+    }
+}
