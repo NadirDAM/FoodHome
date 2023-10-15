@@ -94,4 +94,8 @@ main>.container {
     #menu{
         width: 37.8%;
     }
+    #footer {
+        height: 10%;
+        padding-top: 0%;
+    }
 }

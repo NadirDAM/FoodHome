@@ -397,6 +397,18 @@ img:nth-of-type(3) {
     #menu{
         width: 37.8%;
     }
+    #footer {
+        height: 10%;
+        padding-top: 0%;
+    }
+    body {
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 830px;
+    }
+    .container2{
+        height: 104vh;
+    }
 }
 @media (max-width:1052px){
     #menu{

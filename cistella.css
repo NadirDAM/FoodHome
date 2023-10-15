@@ -140,6 +140,10 @@ img {
     #menu{
         width: 37.8%;
     }
+    #footer {
+        height: 10%;
+        padding-top: 0%;
+    }
 }
 @media (max-width:1052px){
     #menu{
