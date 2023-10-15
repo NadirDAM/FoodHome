@@ -152,8 +152,6 @@ body{
 #footer {
     z-index: 1;
     height: 8%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     position: fixed;
     left:0px;
     width: 100%;
@@ -201,30 +199,92 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 700px;
+    height: 500px;
 }
 .flex1 {
-    background-color: seagreen;
+    background: linear-gradient( #000, #333);
     flex-basis: 100px;
     flex-grow: 1;
     height: 100%;
+    border: solid white 1px;
+    border-left: none;
+    border-top: none;
 }
 .flex2 {
-    background-color: blue;
+    background: linear-gradient( #000, #333);
     flex-basis: 100px;
     flex-grow: 1;
     height: 100%;
+    border: solid white 1px;
+    border-top: none;
 }
 .flex3 {
-    background-color: purple;
+    background: linear-gradient( #000, #333);
     flex-basis: 100px;
     flex-grow: 1;
     height: 100%;
+    border: solid white 1px;
+    border-right: none;
+    border-top: none;
 }
 
+
+/*aside*/
+.carrusel-publicitat {
+    width: 95%;
+    overflow: hidden;
+}
+
+.carrusel-publicitat ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
 
 @media (max-width:1550px){
     #menu{
         width: 37.8%;
+    }
+}
+    animation: accio 7s infinite alternate linear;
+}
+
+.carrusel-publicitat li {
+    width: 100%;
+    list-style: none;
+}
+
+.carrusel-publicitat img {
+    width: 100%;
+}
+
+@keyframes accio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.carrusel-publicitat p {text-align: center; font-family: Arial; color: white; margin-top: 20px}
+@media (max-width:1550px){
+    #menu{
+        width: 37.8%;
+    }
+}
+@media (max-width:1052px){
+    #menu{
+        width: 55.21%;
+    }
+
+}
+@media (max-width:800px){
+    #menu{
+        width: 73.0%;
+
     }
 }
