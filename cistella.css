@@ -94,7 +94,7 @@ main>.container {
     border: none;
 }
 #btn-compra{
-    margin-left: 100px;
+    margin-left: 298px;
     border-radius: 4px;
     background: linear-gradient(#000, #333);
     border: none;
@@ -151,6 +151,9 @@ main>.container {
     #footer {
         height: 10%;
         padding-top: 0%;
+    }
+    #btn-compra{
+        margin-left: 100px;
     }
 }
 @media (max-width:1052px){
